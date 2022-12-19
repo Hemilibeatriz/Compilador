@@ -1,0 +1,23 @@
+IFSULDEMINAS'
+# codigo feito para demonstrar o funcionamento dos analisadores (lexico e sintatico)
+MOVER = 0'
+velocidade = 1'
+contadoralimento = 0'
+POSICAO_ALIMENTO = 0.4'
+POSICAO_COBRA = 0.0'
+pontos = 0'
+
+WHILE(POSICAO_COBRA != POSICAO_ALIMENTO){
+	IF (MOVER_DIREITA ==1){
+		POSICAO_COBRA += 0.1
+	}
+	ELIF (MOVER_ESQUERDA ==1){
+		POSICAO_COBRA -= 0.1
+	}
+	ELIF (MOVER_CIMA ==1){
+		POSICAO_COBRA += 1.0
+	}
+	ELSE{ 
+		POSICAO_COBRA -= 1.0
+	}
+}
